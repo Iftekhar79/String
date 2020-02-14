@@ -2,13 +2,13 @@
 
 #include<bits/stdc++.h>
 #include<iostream>
-
+ 
 using namespace std;
-
+ 
 int main(){
 	
 	string s;
-	string res;
+	
 	
 	cin>>s;
 	
@@ -59,12 +59,6 @@ int main(){
 		
 	}
 	
-	
-	
 	cout<<endl;
-	
-	
-	
-	
 	
 }
