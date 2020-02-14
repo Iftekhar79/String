@@ -1,0 +1,70 @@
+//Codeforces_1085A_Right-Left Cipher
+
+#include<bits/stdc++.h>
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	
+	string s;
+	string res;
+	
+	cin>>s;
+	
+	int len=s.length();
+	
+	
+	int left,right;
+	
+	
+	if(len%2==1){
+		left=right=len/2;
+		
+	}
+	
+	else if (len%2==0){
+		
+		left=right=(len/2)-1;	
+		
+	}
+	
+	
+	
+	while(1){
+		
+		if(left==right){
+			cout<<s[left];	
+		}
+		
+		
+		else {
+			
+			if(right<len){
+				cout<<s[right];			
+			}
+			
+			if(left>=0){		
+				cout<<s[left];			
+			}	
+			
+		}
+		
+		
+		left--;
+		right++;
+		
+		if(right>=len)
+		break;	
+		
+	}
+	
+	
+	
+	cout<<endl;
+	
+	
+	
+	
+	
+}
