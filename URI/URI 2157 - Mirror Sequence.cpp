@@ -12,19 +12,14 @@ int main(){
 	char res[10];
 	int test;
 	
-	
 	cin>>test;
-	
-	
-	
+		
     while(test--){
     	
 	cin>>a>>b;
 	
 	for(int i=a;i<=b;i++){
-	
-		cout<<i;		
-		
+		cout<<i;			
    	}
 
 	
@@ -32,22 +27,17 @@ int main(){
 		
          sprintf(res,"%d",i);
          
-       
 	   	for(int y=strlen(res)-1;y>=0;y--){
 	        
 				cout<<res[y];
-		
-		
-	      }
-		
-	}
+			
+	                 }	
+	           }
 	
 		
-	cout<<endl;
-	
+	   cout<<endl;
   
-  }
-
-
+                   }
+	
 	
 }
